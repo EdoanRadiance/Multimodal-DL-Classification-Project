@@ -40,43 +40,16 @@ phishing-url-detector/
 
 ---
 
-## 🚀 How to Run the Demo
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/phishing-url-detector.git
 cd phishing-url-detector
 ```
 
-### 2. Install Requirements
 
-Ensure you have Python 3.10 and run:
+### Download the Dataset
 
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download the Dataset
-
-Use the **PhishTank dataset**, available here:  
-🔗 [https://www.phishtank.com](https://www.phishtank.com)
-
-Format it as a CSV with the following columns:
-
-- `url` – the full URL string  
-- `label` – 1 for phishing, 0 for legitimate
-
-Save this file as `data/phishtank.csv`.
-
-### 4. Train the Model
-
-```bash
-python main.py --train
-```
-
-### 5. Run Inference
-
-```bash
-python main.py --predict "http://suspicious-example-login.com"
-```
+Use the **UC Irvine dataset**, available here:  
+🔗 [https://archive.ics.uci.edu/dataset/327/phishing+websites](https://archive.ics.uci.edu/dataset/327/phishing+websites)
