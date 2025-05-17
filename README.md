@@ -13,6 +13,13 @@ The model is trained and evaluated on the **PhishTank** dataset and shows strong
 
 ---
 
+
+### The Dataset
+
+Use the **UC Irvine dataset**, available here:  
+🔗 [https://archive.ics.uci.edu/dataset/327/phishing+websites](https://archive.ics.uci.edu/dataset/327/phishing+websites)
+
+
 ## 🗂️ Code Organization
 
 ```
@@ -47,9 +54,3 @@ phishing-url-detector/
 git clone https://github.com/your-username/phishing-url-detector.git
 cd phishing-url-detector
 ```
-
-
-### Download the Dataset
-
-Use the **UC Irvine dataset**, available here:  
-🔗 [https://archive.ics.uci.edu/dataset/327/phishing+websites](https://archive.ics.uci.edu/dataset/327/phishing+websites)
